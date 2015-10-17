@@ -1,0 +1,25 @@
+{
+  "author": "Matt McKellar-Spence",
+  "description": "Calculate age in different formats",
+  "devDependencies": {
+    "coffee-script": "^1.10.0",
+    "jade": "^1.11.0",
+    "jstransformer-coffee-script": "^1.0.0"
+  },
+  "license": "MIT",
+  "keywords": [
+    "age",
+    "conversion",
+    "fun"
+  ],
+  "main": "index.html",
+  "name": "whats_my_age_again",
+  "scripts": {
+    "build": "npm run build_js && npm run build_html && npm run clean_up",
+    "build_html": "jade index.jade",
+    "build_js": "coffee -c main.coffee.md",
+    "clean_up": "rm main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}

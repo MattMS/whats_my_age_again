@@ -1,0 +1,42 @@
+doctype html
+html(lang="en")
+	head
+		meta(charset="utf-8")
+
+		title What's my age again?
+
+		link(href="http://css.mattms.info/basic/light/index.css" rel="stylesheet" type="text/css")
+
+	body
+		.container
+			h1 What's my age again?
+
+			form
+				.field
+					label Octal
+					input(data-radix=8 name="octal" pattern="[0-7]+")
+
+				.field
+					label Decimal
+					input(data-radix=10 name="decimal" pattern="[0-9]+")
+
+				.field
+					label(title="Duodecimal, if you must") Dozenal
+					input(data-radix=12 name="dozenal" pattern="[0-9ABab]+")
+
+				.field
+					label Hexadecimal
+					input(data-radix=16 name="hexadecimal" pattern="[0-9A-Fa-f]+")
+
+		footer.container
+			hr
+			p By&nbsp;
+				a(href="http://mattms.github.io") MattMS
+
+		script(type="text/javascript")
+			include ./main.js
+
+		script(type="text/javascript")
+			:coffee-script
+				document.addEventListener 'DOMContentLoaded', (event)->
+					setup 'input', 'decimal', 23
