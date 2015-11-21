@@ -11,4 +11,4 @@ Just a simple demo that I made for fun.
 
 Clone the repo then `npm install` to download dependencies.
 
-`npm run build` to rebuild index.html after changing any files.
+`Cake in` to rebuild index.html after changing any files.
