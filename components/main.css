@@ -1,0 +1,101 @@
+@import url("http://fonts.googleapis.com/css?family=Ubuntu");
+body,
+html {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1em;
+}
+a,
+a:visited {
+  -webkit-text-decoration-line: underline;
+  -moz-text-decoration-line: underline;
+  text-decoration-line: underline;
+  -webkit-text-decoration-style: dotted;
+  -moz-text-decoration-style: dotted;
+  text-decoration-style: dotted;
+}
+a:focus,
+a:hover {
+  -webkit-text-decoration-line: underline;
+  -moz-text-decoration-line: underline;
+  text-decoration-line: underline;
+  -webkit-text-decoration-style: solid;
+  -moz-text-decoration-style: solid;
+  text-decoration-style: solid;
+}
+p {
+  line-height: 1.6em;
+  margin-bottom: 1.6em;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+h1 {
+  font-size: 3em;
+}
+h2 {
+  font-size: 2.4em;
+}
+h3 {
+  font-size: 1.8em;
+}
+h4 {
+  font-size: 1.6em;
+}
+h5 {
+  font-size: 1.2em;
+}
+h6 {
+  font-size: 1em;
+}
+ol,
+ul {
+  padding-left: 1.6em;
+}
+li {
+  margin-bottom: 1em;
+}
+li > p {
+  margin-bottom: 0;
+}
+hr {
+  margin-top: 2em;
+}
+.container {
+  margin: 0 auto;
+  max-width: 36em;
+}
+input,
+label {
+  display: block;
+}
+label {
+  font-weight: bold;
+  margin-top: 1em;
+}
+body,
+html {
+  background-color: #fff;
+}
+h1 {
+  color: #8b0000;
+}
+h2 {
+  color: #006400;
+}
+h3 {
+  color: #00008b;
+}
+h4 {
+  color: #8b0000;
+}
+h5 {
+  color: #006400;
+}
+h6 {
+  color: #00008b;
+}
